@@ -1,0 +1,74 @@
+{
+  "name": "Peak Finance",
+  "short_name": "Peak Finance",
+  "description": "Climb Higher. Spend Smarter. — Personal finance app for tracking budgets, transactions, and goals.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d3322",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/peak-finance-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/peak-finance-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/peak-finance-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "/peak-finance-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/peak-finance-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Transaction",
+      "short_name": "Transaction",
+      "description": "Quickly add a new transaction",
+      "url": "/?action=add-tx",
+      "icons": [
+        {
+          "src": "/peak-finance-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Budgets",
+      "short_name": "Budgets",
+      "description": "View your monthly budgets",
+      "url": "/?action=view-budgets",
+      "icons": [
+        {
+          "src": "/peak-finance-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
